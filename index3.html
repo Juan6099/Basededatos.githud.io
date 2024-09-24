@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos,   
+ Tipos y Cardinalidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body class="bg-gray-100   
+ font-sans">
+
+    <header class="bg-gradient-to-r from-blue-500 to-blue-700 p-6 text-white text-center">
+        <h1 class="text-4xl font-bold mb-2">Atributos, Tipos y Cardinalidades</h1>
+        <p class="text-lg">Los Detalles que Definen los Datos</p>
+    </header>
+
+    <main class="container mx-auto p-8">
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Atributos y sus Tipos</h2>
+            <p class="mb-4">Los atributos son las características o propiedades que describen una entidad en una base de datos. Cada atributo tiene un tipo de dato asociado que define qué tipo de información puede almacenar.</p>
+
+            <h3 class="text-xl font-semibold mb-2">Tipos de Datos Comunes</h3>
+            <ul class="list-disc list-inside ml-6 mb-4">
+                <li>Numéricos: Enteros (INT), Decimales (FLOAT, DOUBLE), etc.</li>
+                <li>Texto: Cadenas de caracteres (VARCHAR, CHAR, TEXT).</li>
+                <li>Fecha y Hora: Almacenan fechas (DATE), horas (TIME) o ambas (DATETIME).</li>
+                <li>Booleanos: Representan valores verdadero/falso (TRUE/FALSE).</li>
+                <li>Otros: Binarios (BLOB), enumeraciones (ENUM), etc.</li>
+            </ul>
+
+            <p>La elección del tipo de dato adecuado es crucial para garantizar la eficiencia y la integridad de los datos almacenados.</p>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Cardinalidades en las Relaciones</h2>
+            <p class="mb-4">Las cardinalidades describen cuántas instancias de una entidad se relacionan con cuántas instancias de otra entidad. Las cardinalidades más comunes son:</p>
+
+            <dl class="mb-4">
+                <dt class="font-bold">Uno a Uno (1:1)</dt>
+                <dd>Cada instancia de una entidad se relaciona con una y solo una instancia de otra entidad. Ejemplo: Una persona tiene un solo número de pasaporte.</dd>
+                <dt class="font-bold">Uno a Muchos (1:N)</dt>
+                <dd>Una instancia de una entidad se relaciona con muchas instancias de otra entidad. Ejemplo: Un cliente puede realizar muchos pedidos.</dd>
+                <dt class="font-bold">Muchos a Muchos (N:M)</dt>
+                <dd>Muchas instancias de una entidad se relacionan con muchas instancias de otra entidad. Ejemplo: Un estudiante puede estar inscrito en muchos cursos, y un curso puede tener muchos estudiantes.</dd>
+            </dl>
+
+            <p>Las cardinalidades son importantes para diseñar la estructura de la base de datos y garantizar que las relaciones entre las entidades se representen correctamente.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-500 to-blue-700 p-4 text-white text-center">
+        <p>&copy; 2024 Juan Lago </p>
+    </footer>
+    <div class="fixed bottom-0 right-0 p-4">
+        <a href="index4.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Normalización y Formas Normales →
+        </a>
+    </div>
+    <div class="fixed bottom-0 left-0 p-4"> 
+        <a href="index2.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            ← Volver
+        </a>
+    </div>
+</body>
+</html>

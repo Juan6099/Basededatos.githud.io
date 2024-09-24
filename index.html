@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases 
+ de Datos: El Pilar de la Información</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+ 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body  
+ class="bg-gray-100 font-sans">
+
+    <header class="bg-gradient-to-r from-blue-500 to-blue-700 p-6 text-white text-center">
+        <h1 class="text-4xl font-bold mb-2">Bases de Datos</h1>
+        <p class="text-lg">Organizando el Mundo Digital</p>
+    </header>
+
+    <main class="container mx-auto p-8">
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">¿Por qué son Importantes las Bases de Datos?</h2>
+            <div class="flex flex-col md:flex-row items-center"> 
+                <div class="md:w-1/2 mb-4 md:mb-0 md:pr-4">
+                    <img src="database_theapplication_3365.webp" alt="Representación visual de una base de datos" class="rounded-lg shadow-md"> 
+                </div>
+                <div class="md:w-1/2">
+                    <p class="mb-4">Las bases de datos son el corazón de la mayoría de las aplicaciones modernas. Permiten:</p>
+                    <ul class="list-disc list-inside ml-6 mb-4">
+                        <li>Almacenar grandes volúmenes de información de forma estructurada.</li>
+                        <li>Acceder a los datos de manera rápida y eficiente.</li>
+                        <li>Mantener la integridad y consistencia de la información.</li>
+                        <li>Facilitar la toma de decisiones basadas en datos.</li>
+                    </ul>
+                    <p>Desde aplicaciones empresariales hasta redes sociales y sistemas de comercio electrónico, las bases de datos son esenciales para gestionar y aprovechar la información de manera efectiva.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Explorando los Tipos de Bases de Datos</h2>
+            <p class="mb-4">Existen diferentes tipos de bases de datos, cada una con sus propias características y ventajas. Algunas de las más comunes son:</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Relacionales (SQL)</h3>
+                    <img src="SQL.png" alt="Representación visual de una base de datos relacional" class="mb-2 rounded-lg shadow-md"> 
+                    <p class="mb-2">Organizan los datos en tablas con relaciones predefinidas. Ideales para aplicaciones empresariales y transaccionales.</p>
+                    <ul class="list-disc list-inside ml-6">
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Oracle</li>
+                        <li>Microsoft SQL Server</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">NoSQL</h3>
+                    <img src="bases-de-datos-nosql-1080x634.jpg" alt="Representación visual de una base de datos NoSQL" class="mb-2 rounded-lg shadow-md"> 
+                    <p class="mb-2">Flexibles y escalables, ideales para grandes volúmenes de datos no estructurados o semiestructurados.</p>
+                    <ul class="list-disc list-inside ml-6">
+                        <li>MongoDB</li>
+                        <li>Cassandra</li>
+                        <li>Redis</li>
+                        <li>CouchDB</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mt-4">La elección del tipo de base de datos depende de las necesidades específicas de cada aplicación.</p>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Los Guardianes de los Datos: SGBD</h2>
+            <div class="flex flex-col md:flex-row items-center"> 
+                <div class="md:w-1/2 mb-4 md:mb-0 md:pr-4">
+                    <img src="portada.jpg" alt="Representación visual de un Sistema Gestor de Bases de Datos" class="rounded-lg shadow-md"> 
+                </div>
+                <div class="md:w-1/2">
+                    <p class="mb-4">Los Sistemas Gestores de Bases de Datos (SGBD) son software esenciales para interactuar con las bases de datos. Proporcionan herramientas para:</p>
+                    <ul class="list-disc list-inside ml-6 mb-4">
+                        <li>Crear y modificar la estructura de la base de datos.</li>
+                        <li>Insertar, actualizar y eliminar datos.</li>
+                        <li>Realizar consultas complejas para extraer información específica.</li>
+                        <li>Administrar la seguridad y el acceso a los datos.</li>
+                    </ul>
+                    <p>Algunos SGBD populares incluyen MySQL, PostgreSQL, Oracle, MongoDB y muchos otros.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Conceptos Fundamentales</h2>
+            <p class="mb-4">Comprender los siguientes conceptos es clave para trabajar con bases de datos:</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Tablas</h3>
+                    <img src="que-es-una-tabla-en-base-de-datos.jpg" alt="Representación visual de una tabla en una base de datos" class="mb-2 rounded-lg shadow-md"> 
+                    <p>Las tablas son la estructura básica para organizar los datos. Cada tabla representa una entidad o concepto y se compone de filas y columnas.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Registros</h3>
+                    <p>Cada fila dentro de una tabla se conoce como un registro. Un registro representa una instancia única de la entidad que la tabla describe.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Campos</h3>
+                    <p>Las columnas dentro de una tabla se llaman campos. Cada campo define un tipo específico de dato que se almacenará en esa columna.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Atributos</h3>
+                    <p>Los atributos son características o propiedades asociadas a un campo. Por ejemplo, un campo "Nombre" podría tener atributos como longitud máxima o si permite valores nulos.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-gradient-to-r from-blue-500 to-blue-700 p-4 text-white text-center">
+            <p>&copy; Juan Lago</p>
+        </footer>
+
+
+
+    <div class="fixed bottom-0 right-0 p-4">
+        <a href="index2.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Más Conceptos Clave →
+        </a>
+    </div>
+
+ 
+</body>
+</html>

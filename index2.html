@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más   
+ Conceptos Clave de Bases de Datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body class="bg-gray-100   
+ font-sans">
+
+    <header class="bg-gradient-to-r from-blue-500 to-blue-700 p-6 text-white text-center">
+        <h1 class="text-4xl font-bold mb-2">Más Conceptos Clave</h1>
+        <p class="text-lg">Profundizando en el Diseño de Bases de Datos</p>
+    </header>
+
+    <main class="container mx-auto p-8">
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Claves y Relaciones</h2>
+            <p class="mb-4">Las claves y las relaciones son fundamentales para establecer la estructura y la integridad de una base de datos relacional.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Clave Primaria (Primary Key)</h3>
+                    <img src="oracle_21_primary_key.jpg" alt="Representación visual de una clave primaria" class="mb-2 rounded-lg shadow-md"> 
+                    <p>Es un campo o conjunto de campos que identifica de forma única cada registro en una tabla. No puede contener valores nulos ni duplicados.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Clave Foránea (Foreign Key)</h3>
+                    <img src="llaves-foraneas-en-sql-server.jpg" alt="Representación visual de una clave foránea" class="mb-2 rounded-lg shadow-md"> 
+                    <p>Es un campo en una tabla que se refiere a la clave primaria de otra tabla. Establece una relación entre las dos tablas.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Clave Candidata (Candidate Key)</h3>
+                    <p>Es un campo o conjunto de campos que podría servir como clave primaria, pero no ha sido elegido como tal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Otros Conceptos Importantes</h2>
+            <div class="flex flex-col md:flex-row items-center"> 
+                <div class="md:w-1/2 mb-4 md:mb-0 md:pr-4">
+                    <img src="4-1.svg" alt="Representación visual de un modelo entidad-relación" class="rounded-lg shadow-md"> 
+                </div>
+                <div class="md:w-1/2">
+                    <dl class="mb-4">
+                        <dt class="font-bold">Entidad</dt>
+                        <dd>Representa un objeto o concepto del mundo real que se desea almacenar en la base de datos. Se traduce en una tabla.</dd>
+                        <dt class="font-bold">Atributos</dt>
+                        <dd>Son las características o propiedades que describen una entidad. Se convierten en campos de la tabla.</dd>
+                        <dt class="font-bold">Modelo</dt>
+                        <dd>Es una representación abstracta de la estructura de la base de datos, que muestra las entidades, sus atributos y las relaciones entre ellas.</dd>
+                        <dt class="font-bold">Campo</dt>
+                        <dd>Es una columna dentro de una tabla que almacena un tipo específico de dato.</dd>
+                        <dt class="font-bold">Registro</dt>
+                        <dd>Es una fila dentro de una tabla que representa una instancia única de la entidad.</dd>
+                        <dt class="font-bold">Tabla</dt>
+                        <dd>Es una estructura que organiza los datos en filas y columnas.</dd>
+                        <dt class="font-bold">Relación</dt>
+                        <dd>Es una conexión lógica entre dos o más tablas, establecida a través de claves foráneas.</dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-500 to-blue-700 p-4 text-white text-center">
+        <p>&copy; 2024 Juan Lago</p>
+    </footer>
+    <div class="fixed bottom-0 right-0 p-4">
+        <a href="index3.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Atributos, Tipos y Cardinalidades →
+        </a>
+    </div>
+
+    <div class="fixed bottom-0 left-0 p-4"> 
+        <a href="index.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            ← Volver
+        </a>
+    </div>
+
+</body>
+</html>
